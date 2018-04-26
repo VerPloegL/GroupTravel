@@ -18,6 +18,12 @@ header>h1 {
   font-style: italic;
 }
 
+.container h2{
+  font-family: 'Courgette', 'Georgia', cursive;
+  color: #003300;
+  text-align: center;
+}
+
 h3 {
   text-align: center;
   font-size: 1.5em;
@@ -51,6 +57,8 @@ form{
 
 
 nav a {
+  font-family: 'Courgette', 'Georgia', cursive;
+  color: #003300;
   font-size: 1.5em;
   text-align: center;
 
