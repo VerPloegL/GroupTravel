@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>New Zealand Travel</title>
+    <link rel="stylesheet" href="styles2.css" />
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script>
+    function printQuery() {
+      var query = window.location.search.substring(1);
+      var vars = query.split("&");
+
+      for (var i = 0; i < vars.length; i++) {
+        var pair = vars[i].split("=");
+          document.write(pair[0] + ": " + pair[1] + "<br />");
+      }
+    }
+  </script>
+
+  </head>
+
+  <body>
+    <header>
+      <h1>New Zealand</h1>
+    </header>
+
+    <nav>
+      <div class="row" style="text-align:center">
+        <div class="col-sm-2">
+          <a href="../index.html"> Site Home </a>
+        </div>
+        <div class="col-sm-2">
+          <a href="index2.html"> Home </a>
+        </div>
+        <div class="col-sm-2">
+          <a href="#"> Geography </a>
+        </div>
+        <div class="col-sm-2">
+          <a href="#"> Climate </a>
+        </div>
+        <div class="col-sm-2">
+          <a href="#"> Natives </a>
+        </div>
+        <div class="col-sm-2">
+          <a href="purchase.html"> Reserve Trip </a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+    <h2>Thank you for requesting an appt! We will be in touch soon!</h2>
+
+    <script>
+      printQuery();
+    </script>
+  </div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>

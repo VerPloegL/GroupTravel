@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>New Zealand Travel</title>
+  <link rel="stylesheet" href="styles2.css" />
+  <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+
+<body>
+  <header>
+    <h1>New Zealand</h1>
+  </header>
+
+  <nav>
+    <div class="row" style="text-align:center">
+      <div class="col-sm-2">
+        <a href="../index.html"> Site Home </a>
+      </div>
+      <div class="col-sm-2">
+        <a href="index2.html"> Home </a>
+      </div>
+      <div class="col-sm-2">
+        <a href="#"> Geography </a>
+      </div>
+      <div class="col-sm-2">
+        <a href="#"> Climate </a>
+      </div>
+      <div class="col-sm-2">
+        <a href="#"> Natives </a>
+      </div>
+      <div class="col-sm-2">
+        <a href="purchase.html"> Reserve Trip </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container" style="max-width:1024px">
+    <h2>Come to New Zealand! Reserve your vacation today. Just fill out the form below and one of our travel agents will contact you with more information.</h2>
+
+    <form class="form-inline" method="get" action="thankyou.html">
+
+      <fieldset class="form-group">
+        <div class="form-group">
+          <label for="exampleInputName2" class="col-2 col-form-label">First Name</label>
+          <div class="col-4">
+            <input type="text" class="form-control" id="exampleInputName2" placeholder="John" required name="FNAME">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputName2" class="col-2 col-form-label">Last Name</label>
+          <div class="col-4">
+            <input type="text" class="form-control" id="exampleInputName2" placeholder="Smith" required name="LNAME">
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset class="form-group">
+        <div class="form-group">
+          <label for="exampleInputEmail2" class="col-2 col-form-label">Email</label>
+          <div class="col-4">
+            <input type="email" class="form-control" id="exampleInputEmail2" placeholder="john.smith@example.com" required name="EMAIL">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="example-tel-input" class="col-2 col-form-label">Telephone</label>
+          <div class="col-4">
+            <input class="form-control" type="tel" placeholder="(555)-555-5555" id="example-tel-input" required name="PHONE">
+          </div>
+      </fieldset>
+
+      <fieldset class="form-group">
+        <legend>
+          Have you traveled with us before?
+        </legend>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input id="radio1" name="TRAVELB4" value="YES" type="radio" class="custom-control-input">
+            <span class="custom-control-indicator"></span>
+            <span class="custom-control-description">Yes</span>
+          </label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input id="radio2" name="TRAVELB4" type="radio" value="NO" class="custom-control-input" checked>
+            <span class="custom-control-indicator"></span>
+            <span class="custom-control-description">No</span>
+          </label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>
+          How will you be traveling?
+        </legend>
+        <div class="form-group">
+          <label for="exampleSelect1"></label>
+          <select class="form-control" id="exampleSelect1" name="TRAVELSTYLE">
+            <option>Solo</option>
+            <option>Couple</option>
+            <option>Family/Group</option>
+          </select>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>
+          Which places are you interested in visiting?
+        </legend>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox" name="Auckland" value="on">Auckland</label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox" name="ThermalWonderland" value="on">Thermal Wonderland</label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox" name="LOTR" value="on">LOTR Movie Sites</label>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox" name="Canyon" value="on">Rangitikei Grand Canyon</label>
+        </div>
+      </fieldset>
+      <input class="btn btn-primary" type="submit" value="Submit">
+    </form>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
