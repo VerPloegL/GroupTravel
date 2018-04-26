@@ -1,7 +1,9 @@
 /*font-styles*/
 
 body {
-
+  background-image: url(ivoryBkgrd.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 header>h1 {
